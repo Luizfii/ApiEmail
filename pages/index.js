@@ -5,7 +5,7 @@ function Home() {
       <h1>Contatos</h1>
       <h2>sabe os dados de tempo neste exato momento?</h2>
       <h3>Agora sabe:</h3>
-      <p>{tempo}</p>
+      <p>{tempo.nome}</p>
     </div>
 
   );
