@@ -3,7 +3,7 @@ function tempo(request, response) {
     const dynamicDate = new Date();
 
     const usuarios = fetch ("https://api.github.com/users");
-    const usuariosJson = usuarios.json();
+    const usuariosJson = await usuarios.json();
     const login = usuariosJson.login;
     const foto = usuariosJson.avatar_url;
 
