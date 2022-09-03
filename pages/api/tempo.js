@@ -1,8 +1,8 @@
 function tempo(request, response) {
-    const dynamicDate = new Date();
+    const dynamicDate = fetch('http://localhost:3000/');
 
     response.json({
-        date: dynamicDate.toGMTString(),
+        contatos: dynamicDate.toGMTString(),
     })
 }
 
